@@ -4,19 +4,21 @@ import {
   Navbar,
   NavbarBrand
 } from 'reactstrap';
+import Menu from './components/MenuComponent';
 import './App.css';
 
 function App() {
   return ( <
-    div className = "App" >
+    div >
     <
-    Navbar dark color = "primary" >
+    Navbar dark color = "danger" >
     <
     div className = "container" >
     <
     NavbarBrand href = "/" > Ristorante Con Fusion < /NavbarBrand> < /
     div > <
-    /Navbar> < /
+    /Navbar> <
+    Menu / > < /
     div >
   );
 }
